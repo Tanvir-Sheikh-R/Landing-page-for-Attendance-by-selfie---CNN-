@@ -18,6 +18,7 @@ body {
     background-color: var(--bg-main);
     font-family: 'Outfit', sans-serif;
     overflow-x: hidden;
+    /* overflow-y: hidden; */
     line-height: 1.6;
 }
 
@@ -189,4 +190,105 @@ h1, h2, h3, h4 {
 .card-right {
     right: 40px;
     bottom: 15%;
+}
+
+/* Purple Section */
+.purple-section {
+    background-color: var(--primary);
+    color: white;
+    padding: 100px 80px;
+    text-align: center;
+    border-radius: 80px;
+    margin: 40px;
+}
+
+.purple-section h2 {
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.purple-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: white;
+}
+
+.btn-white {
+    background-color: white;
+    color: var(--primary);
+    padding: 18px 40px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+
+/* Main Footer */
+.main-footer {
+    padding: 100px 80px 40px;
+    background-color: #000000;
+    border-top: 1px solid #333333;
+    color: #ffffff;
+    margin-left: 1px;
+}
+
+.main-footer .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto 80px;
+}
+
+.footer-brand .logo {
+    margin-bottom: 24px;
+}
+
+.footer-brand p {
+    color: #cccccc;
+    font-size: 1rem;
+    max-width: 320px;
+    line-height: 1.6;
+}
+
+.footer-brand .logo-text {
+    color: #ffffff;
+}
+
+.footer-links h4 {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 32px;
+    font-weight: 800;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 16px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    border-top: 1px solid #333333;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #999999;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
